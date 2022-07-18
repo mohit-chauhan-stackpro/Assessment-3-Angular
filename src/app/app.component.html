@@ -1,2 +1,5 @@
-<button (click)="(buttonClick)">Display Details</button>
+<button (click)="buttonClick()">Display Details</button>
 <p *ngIf="paraShow">Hi!! This is Secret PARA Password="TUNA"</p>
+<p *ngFor="let buttonClickDetail of buttonClickDetails">
+  {{ buttonClickDetail }}
+</p>
